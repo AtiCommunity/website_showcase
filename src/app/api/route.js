@@ -1,5 +1,6 @@
 import AtiCIcon from "#/public/favicon.ico";
 import DiscordBot from "#/public/discord_bot_logo.png";
+import Minecraft from "#/public/minecraft.png";
 import Profile from "#/public/profile.jpg";
 
 export async function GET() {
@@ -18,7 +19,7 @@ export async function GET() {
             description:
                 "I used Velocity proxy and Paper servers and built a strong network architecture between servers.",
             badges: ["Java", "Velocity", "Paper"],
-            image: AtiCIcon,
+            image: Minecraft,
             link: "https://github.com/AtiCommunity/website_showcase",
             private: true,
         },
@@ -38,7 +39,7 @@ export async function GET() {
             badges: ["JavaScript", "Next.JS", "TailwindCSS", "DaisyUI"],
             image: AtiCIcon,
             link: "https://github.com/AtiCommunity/website_showcase",
-            private: true,
+            private: false,
         },
     ];
 
