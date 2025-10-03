@@ -20,7 +20,7 @@ export async function GET() {
                 "I used Velocity proxy and Paper servers and built a strong network architecture between servers.",
             badges: ["Java", "Velocity", "Paper"],
             image: Minecraft,
-            link: "https://github.com/AtiCommunity/website_showcase",
+            link: "",
             private: true,
         },
         {
@@ -39,6 +39,15 @@ export async function GET() {
             badges: ["JavaScript", "Next.JS", "TailwindCSS", "DaisyUI"],
             image: AtiCIcon,
             link: "https://github.com/AtiCommunity/website_showcase",
+            private: false,
+        },
+        {
+            name: "Scripting: Automated Arch Linux installation",
+            description:
+                "I used bash scripting to make an automated Arch Linux installation with a simple command.",
+            badges: ["Bash", "Arch Linux"],
+            image: AtiCIcon,
+            link: "https://github.com/AtiCommunity/atiscript_archlinux_install",
             private: false,
         },
     ];
