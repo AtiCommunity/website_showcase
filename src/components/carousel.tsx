@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Carousel = async () => {
     const getProjects = async () => {
-        const res = await fetch("http://localhost:3000/api/");
+        const res = await fetch(process.env.API_ROUTE + "/api/");
         return res.json();
     };
 
