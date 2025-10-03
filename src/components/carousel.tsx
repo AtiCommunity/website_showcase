@@ -11,7 +11,7 @@ const Carousel = async () => {
 
     return (
         <>
-            <div className="carousel w-full gap-10">
+            <div className="carousel carousel-center rounded-box max-w-full gap-10">
                 {data.projects.map((project: any, projectIndex: number) => (
                     <div className="carousel-item" key={projectIndex}>
                         <div className="card glass w-72 bg-secondary text-secondary-content">
