@@ -1,7 +1,8 @@
-import AtiCIcon from "#/public/favicon.ico";
 import DiscordBot from "#/public/discord_bot_logo.png";
 import Minecraft from "#/public/minecraft.png";
-import Profile from "#/public/profile.jpg";
+import CV from "#/public/cv.png";
+import Website from "#/public/website.png";
+import Script from "#/public/script.png";
 
 export async function GET() {
     const projects = [
@@ -9,7 +10,7 @@ export async function GET() {
             name: "Discord BOT: TempChannels",
             description:
                 "This project is made with Discord.js library can manage automated temporary channels in a discord server.",
-            badges: ["JavaScript", "Node.js", "Discord.js", "CI", "PM2"],
+            badges: ["JavaScript", "Node.js", "Discord.js", "CI"],
             image: DiscordBot,
             link: "https://github.com/AtiCommunity/discord_tempchannels",
             private: false,
@@ -27,8 +28,8 @@ export async function GET() {
             name: "Website: CV",
             description:
                 "Vite.js is the perfect framework to make this static page like my CV.",
-            badges: ["JavaScript", "Vite.JS", "TailwindCSS", "DaisyUI"],
-            image: Profile,
+            badges: ["JavaScript", "Vite.JS", "TailwindCSS", "DaisyUI", "CI"],
+            image: CV,
             link: "https://github.com/AtiCommunity/website_cv",
             private: false,
         },
@@ -36,8 +37,8 @@ export async function GET() {
             name: "Website: Project showcase",
             description:
                 "Thanks to the power of Next.js to have a simple API to load my project and display a clean website in the same project.",
-            badges: ["JavaScript", "Next.JS", "TailwindCSS", "DaisyUI"],
-            image: AtiCIcon,
+            badges: ["JavaScript", "Next.JS", "TailwindCSS", "DaisyUI", "CI"],
+            image: Website,
             link: "https://github.com/AtiCommunity/website_showcase",
             private: false,
         },
@@ -45,8 +46,8 @@ export async function GET() {
             name: "Scripting: Automated Arch Linux installation",
             description:
                 "I used bash scripting to make an automated Arch Linux installation with a simple command.",
-            badges: ["Bash", "Arch Linux"],
-            image: AtiCIcon,
+            badges: ["Arch Linux", "Bash", "Pacman", "Yay", "CI"],
+            image: Script,
             link: "https://github.com/AtiCommunity/atiscript_archlinux_install",
             private: false,
         },
