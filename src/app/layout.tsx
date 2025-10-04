@@ -27,7 +27,7 @@ export default async function RootLayout({ children }: LayoutProps) {
         <html data-theme={theme} lang="en">
             <body className={`${koho.className}`}>
                 <NavBar />
-                <div className="flex flex-col min-h-screen justify-center items-center">
+                <div className="flex flex-col min-h-screen justify-center items-center px-5 py-10">
                     {children}
                 </div>
                 <Footer />
